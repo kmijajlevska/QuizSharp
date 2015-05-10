@@ -1,0 +1,13 @@
+c:\users\com\documents\visual studio 2013\Projects\QuizSharp\QuizSharp\bin\Debug\QuizSharp.exe.config
+c:\users\com\documents\visual studio 2013\Projects\QuizSharp\QuizSharp\bin\Debug\QuizSharp.exe
+c:\users\com\documents\visual studio 2013\Projects\QuizSharp\QuizSharp\bin\Debug\QuizSharp.pdb
+c:\users\com\documents\visual studio 2013\Projects\QuizSharp\QuizSharp\obj\Debug\QuizSharp.csprojResolveAssemblyReference.cache
+c:\users\com\documents\visual studio 2013\Projects\QuizSharp\QuizSharp\obj\Debug\QuizSharp.Form1.resources
+c:\users\com\documents\visual studio 2013\Projects\QuizSharp\QuizSharp\obj\Debug\QuizSharp.NewGame.resources
+c:\users\com\documents\visual studio 2013\Projects\QuizSharp\QuizSharp\obj\Debug\QuizSharp.Properties.Resources.resources
+c:\users\com\documents\visual studio 2013\Projects\QuizSharp\QuizSharp\obj\Debug\QuizSharp.csproj.GenerateResource.Cache
+c:\users\com\documents\visual studio 2013\Projects\QuizSharp\QuizSharp\obj\Debug\QuizSharp.exe
+c:\users\com\documents\visual studio 2013\Projects\QuizSharp\QuizSharp\obj\Debug\QuizSharp.pdb
+C:\Users\com\Documents\Visual Studio 2013\Projects\QuizSharp\QuizSharp\obj\Debug\QuizSharp.HowToPlay.resources
+C:\Users\com\Documents\Visual Studio 2013\Projects\QuizSharp\QuizSharp\obj\Debug\QuizSharp.Questions.resources
+C:\Users\com\Documents\Visual Studio 2013\Projects\QuizSharp\QuizSharp\obj\Debug\QuizSharp.Bonus.resources

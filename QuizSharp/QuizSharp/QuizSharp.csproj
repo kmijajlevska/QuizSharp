@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6904D14E-04C7-45A4-9450-F290EEB784D8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuizSharp</RootNamespace>
+    <AssemblyName>QuizSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bonus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bonus.Designer.cs">
+      <DependentUpon>Bonus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HowToPlay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HowToPlay.Designer.cs">
+      <DependentUpon>HowToPlay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewGame.Designer.cs">
+      <DependentUpon>NewGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Questions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Questions.Designer.cs">
+      <DependentUpon>Questions.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Bonus.resx">
+      <DependentUpon>Bonus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HowToPlay.resx">
+      <DependentUpon>HowToPlay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewGame.resx">
+      <DependentUpon>NewGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Questions.resx">
+      <DependentUpon>Questions.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11256435_1021182944582104_1463773572_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11216366_1021190247914707_1162680728_n %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11259013_1021191081247957_600755202_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-glossy-blue-rounded.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_NewGame %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Exit_hover1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Exit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_HowToPlay_hover1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_HowToPlay1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_NewGame_hover1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_NewGame1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Form1_bgimg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curvevertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curvevertical1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logobg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logobg_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curved_line_brush_by_mysteriofthekaulitz-d32aumc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Exit_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_HowToPlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_HowToPlay_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_NewGame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_NewGame_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_Spin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dfgdfs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\History.txt.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history_answers.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\science.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\science_answers.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_GeographyHOVER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_GeographyMOUSEDOWN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_HistoryHOVER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_HistoryMOUSEDOWN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_ScienceHOVER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_ScienceMOUSEDOWN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_ShowbizHOVER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_ShowbizMOUSEDOWN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_SportsHOVER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_SportsMOUSEDOWN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerGeography.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerGeographyCORRECT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerGeographyWRONG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerHistory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerHistoryCORRECT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerHistoryWRONG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerScience.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerScienceCORRECT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerScienceWRONG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerShowbiz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerShowbizCORRECT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerShowbizWRONG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerSports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerSportsCORRECT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answerSportsWRONG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categoryGeography.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categoryHistory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categoryScience.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categoryShowbiz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categorySports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questionGeography.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questionHistory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questionScience.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questionShowbiz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questionSports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickacategory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Geography.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Geography_answers.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\showbiz.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\showbiz_answers.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sports.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sports_answers.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\howtoplay_bg.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
